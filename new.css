@@ -254,12 +254,13 @@ footer {
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    padding: 50px;
   }
   
   .logo {
     /* margin-left: 25px; */
     width: 250px;
+    padding-left: 50px;
+  padding-top: 11px;
   }
   .logos {
     filter: invert(1);
