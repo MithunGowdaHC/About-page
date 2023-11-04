@@ -254,6 +254,7 @@ footer {
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, 25%);
+    padding: 50px;
   }
   
   .logo {
