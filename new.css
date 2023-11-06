@@ -413,16 +413,21 @@ padding-top: 11px;
 }
 
 
-@media (max-width: 1100px)
+@media (max-width: 600px)
 {
   .menubar{
     display: block;
     padding: 20px;
+    cursor: pointer;
   }
 
   .navbar{
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -200%;
+  }
+  .visible{
+    margin-top: 0%;
   }
  .logo{
     margin-left: -55px;
