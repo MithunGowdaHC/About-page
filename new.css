@@ -419,6 +419,7 @@ padding-top: 11px;
     display: block;
     padding: 20px;
     cursor: pointer;
+    z-index: 2;
   }
 
   .navbar{
