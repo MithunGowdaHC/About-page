@@ -1,15 +1,13 @@
 @font-face {
   font-family: sp;
   color: #000;
-  src: url('Means-Light-Web.7121f5d6.1.woff2');
+  src: url("Means-Light-Web.7121f5d6.1.woff2");
 }
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: sp;
-  
 }
-
 
 .menubar img {
   height: 30px;
@@ -57,7 +55,7 @@
   filter: invert(0);
 }
 
-.navbar>ul>li:not(.dropdown ul li) {
+.navbar > ul > li:not(.dropdown ul li) {
   cursor: pointer;
   display: flex;
   /* justify-content: center; */
@@ -65,9 +63,8 @@
   width: 200px;
 }
 
-.navbar>ul>li a:not(.dropdown ul li) {
+.navbar > ul > li a:not(.dropdown ul li) {
   padding: 25px 5px;
-
 }
 
 .navbar ul li a {
@@ -77,22 +74,20 @@
   padding: 0px 5px 0px 10px;
 }
 
-
-.navbar>ul>li:not(.dropdown ul li):hover>a {
+.navbar > ul > li:not(.dropdown ul li):hover > a {
   text-decoration: underline;
   color: #000;
   font-weight: 600;
   /* background-color: aqua; */
 }
 
-.navbar>.navigationBar>li:hover img {
+.navbar > .navigationBar > li:hover img {
   filter: invert(0);
 }
 
-.navbar>.navigationBar>li>a:hover+img {
+.navbar > .navigationBar > li > a:hover + img {
   filter: invert(0);
 }
-
 
 .review {
   position: relative;
@@ -114,7 +109,7 @@
   cursor: pointer;
 }
 
-.review:hover+.dropdown {
+.review:hover + .dropdown {
   display: block;
 }
 
@@ -128,141 +123,126 @@
   display: block;
 }
 
-
-.container{
+.container {
   display: flex;
   height: 530px;
   width: 100vw;
   background-color: #c5dbf2;
 }
 
-
-
-
-.ourtext{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 50%;
-font-weight: 800;
-font-size:6rem;
-font-family: sp;
-color: black;
-
+.ourtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-weight: 800;
+  font-size: 6rem;
+  font-family: sp;
+  color: black;
 }
-.img1{
+.img1 {
   display: flex;
   align-items: center;
   width: 50%;
   height: 500px;
-  
-
 }
-.img1 img{
-  height:70%
+.img1 img {
+  height: 70%;
 }
 
-
-
-.info{
+.info {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  
 }
-.infobox1{
+.infobox1 {
   width: 70%;
- height: auto;
- font-size: 22px;
+  height: auto;
+  font-size: 22px;
 }
 
-.large{
+.large {
   font-size: 50px;
 }
 
-.subheading1{
+.subheading1 {
   font-size: 50px;
 }
-.infobox2{
+.infobox2 {
   width: 70%;
   height: auto;
   /* border: 2px solid black; */
   font-size: 22px;
 }
-.subheading2{
+.subheading2 {
   font-size: 50px;
 }
-.infobox2 p{
+.infobox2 p {
   margin-top: 25px;
 }
 
-
-.infobox3{
+.infobox3 {
   width: 70%;
   height: auto;
   /* border: 2px solid black; */
   font-size: 22px;
 }
 
-.infobox3 p{
+.infobox3 p {
   margin-top: 15px;
 }
-.infobox4{
+.infobox4 {
   width: 70%;
   height: auto;
   margin-bottom: 50px;
   font-size: 22px;
 }
 
-.infobox4 p{
+.infobox4 p {
   margin-top: 15px;
 }
 
+.learn {
+  width: 84%;
+  margin: auto;
+}
 
-  .learn {
-    width: 84%;
-    margin: auto;
-  }
-
-.heading{
+.heading {
   font-size: xx-large;
   font-weight: 700;
   padding: 25px;
 }
-.conboxes{
+.conboxes {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 35px;
-  
 }
-.b{
+.b {
   height: auto;
   width: 300px;
-  
 }
 .conboxes img {
   height: 187px;
   /* display: block; */
 }
 
-.conboxes a{
+.conboxes a {
   text-decoration: none;
   color: #004e56;
-  font-size: 25px; 
+  font-size: 25px;
 }
-.conboxes a:hover{
+.conboxes a:hover {
   text-decoration: underline;
 }
-
 
 footer {
   position: relative;
   bottom: -146px;
-padding: 50px;
+  padding: 50px;
   background-color: rgb(40, 38, 38);
   color: white;
   width: 100%;
@@ -274,8 +254,8 @@ padding: 50px;
 .logo {
   /* margin-left: 25px; */
   width: 250px;
-  padding-left: 50px;
-padding-top: 11px;
+  /* padding-left: 50px; */
+  padding-top: 11px;
 }
 
 .logo img {
@@ -290,8 +270,8 @@ padding-top: 11px;
   width: 52px;
   font-size: 20px;
   font-weight: bold;
-    text-decoration: underline;
-    font-family: sp;
+  text-decoration: underline;
+  font-family: sp;
 }
 .location ul {
   /* height: 100px; */
@@ -365,7 +345,6 @@ padding-top: 11px;
   color: white;
 }
 
-
 /* responsive */
 @media (width<=970px) {
   footer {
@@ -379,12 +358,11 @@ padding-top: 11px;
     flex-direction: column;
     justify-content: space-between;
   }
-  .logo{
+  .logo {
     padding: 5px;
-
   }
-  .logo img{
-    width: 60%;
+  .logo img {
+    /* width: 60%; */
     margin: auto;
   }
   .colomn2 {
@@ -400,7 +378,7 @@ padding-top: 11px;
     display: inline;
     width: 50%;
   }
-  .s-media{
+  .s-media {
     display: flex;
   }
   .logo {
@@ -409,189 +387,123 @@ padding-top: 11px;
     flex-direction: column;
     align-items: center;
   }
-
 }
 
-
-@media (max-width: 600px)
-{
-  .menubar{
-    display: block;
-    padding: 20px;
-    cursor: pointer;
-    z-index: 2;
-  }
-
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: -200%;
-  }
-  .visible{
-    margin-top: 0%;
-  }
- .logo{
-    margin-left: -55px;
-  }
-  .navigationBar{
-    flex-direction: column;
-    width: 100%;
-  }
-  .navigationBar li {
-    width: 100%;
-
-  }
-  .nav  a{
-     margin-left: 15px;
-  }
-}
-
-  @media(width < 1100px) {
-    .dropdown {
-      width: 50%;
-      top: 73%;
-      left: 57%;
-    }
-
-}
-
-
-@media(max-width:1100px){
-  .container{
+@media (max-width: 1100px) {
+  .container {
     display: flex;
     height: 300px;
     width: 100vw;
     background-color: #c5dbf2;
     margin-top: -10px;
     flex-direction: column;
-    
   }
-  
-  
-  
-  
-   .ourtext{
 
-  align-items: flex-start;
-  /* width: 45%; */
-  font-weight: 800;
-  font-size:3.5rem;
-  font-family: sp;
-  color: black;
-  
+  .ourtext {
+    align-items: flex-start;
+    /* width: 45%; */
+    font-weight: 800;
+    font-size: 3.5rem;
+    font-family: sp;
+    color: black;
+    padding: 50px;
   }
-  .img1{
-    
-   width: 100vw;
-    
+  .img1 {
+    width: 100vw;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
   }
-  .img1 img{
+  .img1 img {
     height: auto;
     border: 2px solid transparent;
     border-radius: 20px;
     margin-top: -50px;
     width: 250px;
-
-    
-    
   }
 
-
-
-
-
-  .info{
+  .info {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 3px;
-    
   }
-  .infobox1{
-   height: auto;
-   font-size: 15px;
+  .infobox1 {
+    height: auto;
+    font-size: 15px;
   }
-  
-  .large{
+
+  .large {
     font-size: 30px;
   }
-  
-  .subheading1{
+
+  .subheading1 {
     font-size: 30px;
   }
-  .infobox2{
+  .infobox2 {
     height: auto;
     /* border: 2px solid black; */
     font-size: 15px;
   }
-  .subheading2{
+  .subheading2 {
     font-size: 30px;
   }
-  .infobox2 p{
+  .infobox2 p {
     margin-top: 10px;
   }
-  
-  
-  .infobox3{
+
+  .infobox3 {
     height: auto;
     /* border: 2px solid black; */
     font-size: 15px;
   }
-  
-  .infobox3 p{
+
+  .infobox3 p {
     margin-top: 15px;
   }
-  .infobox4{
+  .infobox4 {
     height: auto;
     margin-bottom: 50px;
     font-size: 15px;
   }
-  
-  .infobox4 p{
+
+  .infobox4 p {
     margin-top: 15px;
   }
-  
-  
-    .learn {
-      width: 80%;
-      margin: auto;
-    }
-  
-  .heading{
+
+  .learn {
+    width: 80%;
+    margin: auto;
+  }
+
+  .heading {
     font-size: 30px;
     font-weight: 800;
     width: 100%;
     font-family: sp;
   }
-  .conboxes{
+  .conboxes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin:auto;
+    margin: auto;
     margin-top: -100px;
-    
   }
-  .b1{
+  .b1 {
     height: auto;
     width: 300px;
     margin-left: 10px;
     margin-top: 1;
-    
   }
-  .b{
+  .b {
     height: auto;
     width: 300px;
     margin-left: 10px;
     margin-top: 60px;
-    
   }
   .conboxes img {
     height: 187px;
@@ -599,16 +511,15 @@ padding-top: 11px;
     align-items: center;
     justify-content: center;
   }
-  
-  .conboxes a{
+
+  .conboxes a {
     text-decoration: none;
     color: #004e56;
-    font-size: 25px; 
+    font-size: 25px;
   }
-  .conboxes a:hover{
+  .conboxes a:hover {
     text-decoration: underline;
   }
-
 }
 @media (width<=970px) {
   footer {
@@ -622,15 +533,14 @@ padding-top: 11px;
     flex-direction: column;
     justify-content: space-between;
   }
-  .logo{
+  .logo {
     /* padding: 5px; */
-
   }
-  .logo p{
+  .logo p {
     width: 200px;
     margin-left: 115px;
   }
-  .logo img{
+  .logo img {
     width: 70%;
     margin: auto;
   }
@@ -647,7 +557,7 @@ padding-top: 11px;
     display: inline;
     width: 50%;
   }
-  .s-media{
+  .s-media {
     display: flex;
   }
   .logo {
@@ -656,15 +566,226 @@ padding-top: 11px;
     flex-direction: column;
     align-items: center;
   }
-
 }
 
+.logo img {
+  filter: invert(0);
+}
 
+.menubar img {
+  height: 30px;
+  filter: invert(0);
+}
 
+.menubar {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  cursor: pointer;
+  display: none;
+}
 
+.mainNavbarContainer {
+  padding: 30px;
+  background-color: #c5dbf2;
+}
 
+.navbar {
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  transition: all 0.6s ease;
+  /* background-color: rgb(208, 220, 225); */
+  border-radius: 20px;
+}
 
+.navigationBar {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: -15%;
+}
 
+.navigationBar img {
+  height: 20px;
+  filter: invert(0);
+}
 
+.navbar > ul > li:not(.dropdown ul li) {
+  cursor: pointer;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 200px;
+}
 
+.navbar > ul > li a:not(.dropdown ul li) {
+  padding: 25px 5px;
+}
 
+.navbar ul li a {
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+  padding: 0px 5px 0px 10px;
+}
+
+.navbar > ul > li:not(.dropdown ul li):hover > a {
+  text-decoration: underline;
+  color: #000;
+  font-weight: 600;
+  /* background-color: aqua; */
+}
+
+.navbar > .navigationBar > li:hover img {
+  filter: invert(0);
+}
+
+.navbar > .navigationBar > li > a:hover + img {
+  filter: invert(0);
+}
+
+.review {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 70%;
+  background-color: #eeede5;
+  z-index: 2;
+  padding: 25px 15px;
+  left: 55%;
+  display: none;
+}
+
+.dropdown li {
+  padding: 15px 10px;
+  color: #503a3a;
+  cursor: pointer;
+}
+
+.review:hover + .dropdown {
+  display: block;
+}
+
+.dropdown ul li:hover {
+  text-decoration: none;
+  color: #574242;
+  background-color: rgb(229, 238, 232);
+}
+
+.dropdown:hover {
+  display: block;
+}
+
+@media (width <=698px) {
+  .navigationBar img {
+    height: 20px;
+    filter: invert(1);
+  }
+
+  .logo img {
+    filter: invert(1);
+  }
+
+  .mainNavbarContainer {
+    padding: 0px;
+  }
+
+  .menubar {
+    display: block;
+    z-index: 3;
+  }
+
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%);
+    background-color: #c5dbf2;
+    margin-top: -150%;
+  }
+
+  .navbarVisible {
+    margin-top: 5%;
+  }
+
+  .navigationBar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dropdown {
+    width: 90%;
+    top: 77%;
+    left: 25%;
+    background-color: #c5dbf2;
+  }
+
+  .navbar ul li a {
+    line-height: 20px;
+    color: #000;
+    padding: 0px 10px;
+  }
+
+  .nav img{
+    filter: invert(0);
+  }
+
+  .navbar > ul > li a:not(.dropdown ul li) {
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .navbar ul li:hover > a {
+    color: #000;
+    padding: 0px 10px;
+  }
+}
+
+@media (width < 500px) {
+  .dropdown {
+    width: 120%;
+    top: 77%;
+    left: -6%;
+  }
+
+  .servicesContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+  .navbar > ul > li a:not(.dropdown ul li) {
+    font-size: 12px;
+  }
+
+  .navbar > ul > li:not(.dropdown ul li) {
+    width: 100px;
+  }
+
+  .logo {
+    width: 170px;
+  }
+
+  .logo img {
+    height: 80px;
+  }
+
+  .navigationBar {
+    width: 85%;
+  }
+
+  .nav img {
+    height: 12px;
+  }
+}
